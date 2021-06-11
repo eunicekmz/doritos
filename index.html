@@ -1,37 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-<meta charset="UTF-8">
-<title>Kamanzi Eunice's Website</title>
-<link rel="icon" href="bg3.png" type="image/x-icon">
+<html>
+<head>
 <style>
-html,body {font-family:"Verdana",sans-serif}
-h1,h2,h3,h4,h5,h6 {font-family:"Segoe UI",sans-serif}
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
+body {
+  background-image: url("paper.gif");
+}
+.dropbtn {
+  background-color: #f1f1f1;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
 }
 
-li {
-  float: left;
-}
-
-li a, .dropbtn {
-  display: inline-block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
-}
-
-li.dropdown {
+.dropdown {
+  position: relative;
   display: inline-block;
 }
 
@@ -49,35 +33,61 @@ li.dropdown {
   padding: 12px 16px;
   text-decoration: none;
   display: block;
-  text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1;}
+.dropdown-content a:hover {background-color: #f1f1f1}
 
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #555;
+  color: white;
+}
 </style>
-    </head>
+</head>
 <body>
+
+<h2>Information</h2>
+
 <ul>
-  <li><a href="index.html">Home</a></li>
-  <li class="dropdown">
-    <a class="dropbtn">Homeworks</a>
-    <div class="dropdown-content">
+  <li><a href="#home">Home</a></li>
+  <li><div class="dropdown">
+  <button class="dropbtn">homeworks</button>
+  <div class="dropdown-content">
       <a href="Homework 5.pdf">Homework 5</a>
       <a href="Homework 6.pdf">Homework 6</a>
       <a href="Homework 7.pdf">Homework 7</a>
-      <a href="Homework 8.html">Homework 8</a>
+      <a href="Homework_8.html">Homework 8</a>
       <a href="Homework_9.html">Homework 9</a>
       <a href="Homework_10.html">Homework 10</a>
-    </div>
-  </li>
-  <li><a href="Project.html">Project</a></li>
+
+  </div>
+</div></li>
+  <li><a href="projet.html">project</a></li>
 </ul>
-<img src="bg-3.jpg" alt="View" style="width:100%">
-<h1>Student id  is 20193333</h1>
-<p>I am a Rwandese aspired to be a great software engineer.</p>
+<h3>GET TO KNOW ME!!</H3>
+My name is Kamanzi Charly Eunice,i am a Rwandese  aspired to be a great software engineer.My hobbies are coding and swimming.
+
 </body>
 </html>
