@@ -1,23 +1,37 @@
 <!DOCTYPE html>
-<html lang="eng">
- <head>
+<html lang="en">
+  <head>
 <meta charset="UTF-8">
-<title>Kamanzi Eunice's website</title>   
+<title>Kamanzi Eunice's Website</title>
+<link rel="icon" href="bg3.png" type="image/x-icon">
 <style>
-body {
-  background-image: url("bg-3");
-}
-.dropbtn {
-  background-color: #f1f1f1;
-  color: black;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
+html,body {font-family:"Verdana",sans-serif}
+h1,h2,h3,h4,h5,h6 {font-family:"Segoe UI",sans-serif}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
-.dropdown {
-  position: relative;
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
   display: inline-block;
 }
 
@@ -35,57 +49,36 @@ body {
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+  text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {background-color: #f1f1f1;}
 
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
-.dropdown:hover .dropbtn {
-  background-color: #3e8e41;
-}
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 200px;
-  background-color: #f1f1f1;
-}
-
-li a {
-  display: block;
-  color: #000;
-  padding: 8px 16px;
-  text-decoration: none;
-}
-
-/* Change the link color on hover */
-li a:hover {
-  background-color: #555;
-  color: white;
-}
 </style>
-</head>
+    </head>
 <body>
-
-<h2>Information</h2>
-
 <ul>
-  <li><a href="#home">Home</a></li>
-  <li><div class="dropdown">
-  <button class="dropbtn">homeworks</button>
-  <div class="dropdown-content">
-    <a href="#">homework 5 </a>
-    <a href="#">homework 6</a>
-    <a href="#">homework 7</a>
-  </div>
-</div></li>
-  <li><a href="projet.html">project</a></li>
+  <li><a href="index.html">Home</a></li>
+  <li class="dropdown">
+    <a class="dropbtn">Homeworks</a>
+    <div class="dropdown-content">
+      <a href="Homework_5.pdf">Homework 5</a>
+      <a href="Homework_6.pdf">Homework 6</a>
+      <a href="Homework_7.pdf">Homework 7</a>
+      <a href="Homework_8.html">Homework 8</a>
+      <a href="Homework_9.html">Homework 9</a>
+      <a href="Homework_10.html">Homework 10</a>
+    </div>
+  </li>
+  <li><a href="Project.html">Project</a></li>
 </ul>
-<h3>GET TO KNOW ME!!</H3>
-My name is Kamanzi Charly Eunice,i am a Rwandese  aspired to be a great software engineer.My hobbies are coding and swimming.
-
+<img src="Impostor.jpg" alt="View" style="width:100%">
+<h1>My name is Axel Ntwali</h1>
+<h2>My student number is 20193441</h2>
+<p>I like video games.</p>
 </body>
 </html>
