@@ -1,8 +1,8 @@
 <html>
   <head>
     <title>skrr.tk</title>
-    <meta name="description" content="skrr.tk">
-    <meta name="keywords" content="skrr.tk">
+    <meta name="description" >
+    <meta name="keywords" >
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <script type="text/javascript">
         var _gaq = _gaq || [];
@@ -17,6 +17,6 @@
     </script>
   </head>
   <frameset rows="*">
-    <frame frameborder=0 src="http://bossyflash.github.io" name="dot_tk_frame_content" scrolling="auto" noresize>
+    <frame frameborder=0 src="http://eunicekmz.github.io" name="dot_tk_frame_content" scrolling="auto" noresize>
   </frameset>
 </html>
