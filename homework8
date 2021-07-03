@@ -1,22 +1,94 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <title>eunicekmz</title>
-    <meta name="description" >
-    <meta name="keywords" >
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <script type="text/javascript">
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-23441223-3']);
-        _gaq.push(['_setDomainName', 'none']);
-        _gaq.push(['_setAllowLinker', true]);
-        _gaq.push(['_trackPageview']);
-        (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
-    </script>
-  </head>
-  <frameset rows="*">
-    <frame frameborder=0 src="http://eunicekmz.github.io" name="dot_tk_frame_content" scrolling="auto" noresize>
-  </frameset>
+	<title>Homework 8</title>
+	<link rel="icon" href="my_icon.png" type="image/x-icon">
+	<style>
+		body{
+			margin-top: 20px;
+			margin-left: 40px;
+        }
+    h3{
+      text-align:center;
+    }
+		#movie {
+			border-collapse: collapse;
+		    	width: 95%;
+		}
+		#movie td{
+		  border: 1px solid #333;
+		  padding: 6px;
+		}
+
+		#movie tr:hover {
+		  background-color: #ff7870;
+		}
+
+		#movie th {
+		  padding-top: 15px;
+		  padding-bottom: 15px;
+		  text-align: center;
+		  background-color: #c3574b;
+		  color: #000;
+		}
+	</style>
+</head>
+<body>
+  <h3>Movie review table<h3>
+	<table id="movie">
+		  <thead>
+		    <tr>
+		      <th scope="col">Title</th>
+		      <th scope="col">Director/Producer</th>
+		      <th scope="col">Leading Actor</th>
+		      <th scope="col">Leading Actress</th>
+		      <th scope="col">Rating</th>
+		      <th scope="col">Description</th>
+		      <th scope="col">Critics Review</th>
+		    </tr>
+		  </thead>
+		  <tbody>
+		    <tr>
+		      <td>Sherlock Holmes:A Game of Shadows</td>
+		      <td>Dexter Fletcher, Guy Ritchie</td>
+		      <td>Robert Downey Jr</td>
+		      <td>Noomi Rapace</td>
+		      <td>PG-13</td>
+		      <td>Detective Sherlock Holmes is on the trail of criminal mastermind Professor Moriarty, who is carrying out a string of random crimes across Europe.</td>
+		      <td><a href="https://www.imdb.com/title/tt01515091/">IMDB</a></td>
+		    </tr>
+		  </tbody>
+		</table> 
+		<br>
+
+		<h3>Website Appeal Analysis</h3>
+		<table id="movie">
+		  <thead>
+		    <tr>
+		      <th scope="col">URL</th>
+		      <th scope="col">Uses Tables?</th>
+		      <th scope="col">Uses CSS?</th>
+		      <th scope="col">Appealing?</th>
+		      <th scope="col">Description</th>
+		    </tr>
+		  </thead>
+		  <tbody>
+		    <tr>
+		      <td><a href="https://www.apple.com/">apple.com</a></td>
+		      <td>No</td>
+		      <td>Yes. uses CSS for page layout and styling</td>
+		      <td>Yes. 100%</td>
+		      <td>The homepage is very welcoming, modern, simple, impressive and clean, allowing the brand to really show its products off and make them the primary focus.</td>
+		    </tr>
+		    <tr>
+		      <td><a href="https://www.vipstand.se/">www.vipstand.se</a></td>
+		      <td>No</td>
+		      <td>Yes. uses CSS for page layout and styling</td>
+		      <td>No. Not really.</td>
+		      <td>Too many ads when you click on a link. But apart from that, it's not that bad.</td>
+		    </tr>
+		  </tbody>
+		</table> 
+<p style="text-align:left; padding-top: 30px;"><i><a href="mailto:20193441@std.neu.edu.tr">Send an email</a></i></p>
+</body>
 </html>
